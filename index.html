@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="move('theDiv')">
+
+    <div id="theDiv" class="theDiv"></div>
+
+
+    <!-- <script>
+        var dragValue;
+        
+        function move(id){
+            var element = document.getElementById("theDiv");
+            element.style.position = "absolute";
+            element.onmousedown = function(){
+                dragValue = element;
+            }
+        }
+        document.onmouseup = function(e){
+            dragValue = null;
+        }
+        
+        document.onmousemove = function(e){
+            var x = e.pageX;
+            var y = e.pageY;
+            
+            dragValue.style.left = x + "px";
+            dragValue.style.top = y + "px";
+        }
+        
+    </script> -->
+    
+</body>
+</html>
